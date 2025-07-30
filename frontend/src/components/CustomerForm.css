@@ -30,26 +30,24 @@
 
 
 @media (max-width: 600px) {
-  .sectionbill {
+  .section {
     padding: 16px;
   }
 
-  .sectionbill h2 {
+  .section h2 {
     font-size: 18px;
     text-align: center;
   }
 
-  .bill-box {
-    width: 100%;
-    font-size: 18px;
-    padding: 12px;
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .button {
+  .input-group input {
     width: 100%;
-    font-size: 14px;
-    padding: 10px;
-    text-align: center;
+    font-size: 15px;
   }
 }
+
 
