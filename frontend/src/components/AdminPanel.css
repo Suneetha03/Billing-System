@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .section {
   background-color: #2b2b2b;
   color: #f5f5f5;
