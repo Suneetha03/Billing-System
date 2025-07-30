@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const API_BASE = "https://billing-system-1op4.onrender.com/api/bills";
-const API_BASE = "http://localhost:5000/api/bills";
+const API_BASE = "https://billing-system-backend-0bla.onrender.com/api/bills";
+// const API_BASE = "http://localhost:5000/api/bills";
 
 export const saveBill = async (bill) => {
   try {
