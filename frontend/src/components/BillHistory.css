@@ -71,3 +71,33 @@
 }
 
 
+
+@media (max-width: 600px) {
+  .section {
+    padding: 16px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .search-input {
+    max-width: 100%;
+  }
+
+  .bill-container {
+    grid-template-columns: 1fr;
+  }
+
+  .bill-box {
+    padding: 12px;
+  }
+
+  .bill-box li {
+    font-size: 13px;
+  }
+
+  .text-muted {
+    font-size: 12px;
+  }
+}
