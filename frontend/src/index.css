@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: auto;
+  background: #2b2b2b;
+  padding: 20px;
+  border: 4px ridge #444;
+  border-radius: 10px;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #0078d7;
+  color: white;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+.section-box {
+  background: #3a3a3a;
+  border: 3px groove #555;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid #888;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.input-field {
+  padding: 8px;
+  margin: 4px 8px 4px 0;
+  border: 2px inset #777;
+  background: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button {
+  background-color: #444;
+  color: white;
+  padding: 8px 16px;
+  border: 2px outset #222;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+.bill-box {
+  font-family: monospace;
+  background: #121212;
+  color: #00ffaa;
+  border: 2px dashed #888;
+  padding: 10px;
+  white-space: pre-wrap;
+  border-radius: 6px;
+} 
+
+/* @media print {
+  body * {
+    visibility: hidden;
+  }
+  #print-area, #print-area * {
+    visibility: visible;
+  }
+  #print-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+} */
+
