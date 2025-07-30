@@ -1,9 +1,9 @@
 import axios from "axios";
 
 // Use deployed backend base URL
-// const BASE_URL = "https://billing-system-1op4.onrender.com/api/prices";
+const BASE_URL = "https://billing-system-backend-0bla.onrender.com/api/prices";
 
-const BASE_URL = "http://localhost:5000/api/prices";
+// const BASE_URL = "http://localhost:5000/api/prices";
 
 // Fetch all products from backend
 export const fetchPrices = async () => {
