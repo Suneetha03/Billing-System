@@ -27,3 +27,29 @@
   font-size: 14px;
   width: 250px;
 }
+
+
+@media (max-width: 600px) {
+  .sectionbill {
+    padding: 16px;
+  }
+
+  .sectionbill h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .bill-box {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
