@@ -43,24 +43,27 @@
   background-color: #777;
 }
 
-@media print {
-  body * {
-    visibility: hidden;
+@media (max-width: 600px) {
+  .sectionbill {
+    padding: 16px;
   }
 
-  #printable-bill,
-  #printable-bill * {
-    visibility: visible;
+  .sectionbill h2 {
+    font-size: 18px;
+    text-align: center;
   }
 
-  #printable-bill {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .bill-box {
     width: 100%;
-    padding: 20px;
-    font-family: monospace;
-    white-space: pre;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
   }
 }
 
