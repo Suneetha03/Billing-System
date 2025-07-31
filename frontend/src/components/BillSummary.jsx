@@ -42,7 +42,7 @@ export default function BillSummary({
   };
 
   return (
-    <div className="section">
+    <div className="sectionbill">
       <h2>Current Bill</h2>
 
        <div id="printable-bill" className="bill-box">  {/* Bill to be printed */}
