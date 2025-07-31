@@ -1,14 +1,18 @@
-.section {
+.sectionbill {
   background-color: #2c2c2c;
   color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
-
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-.section h2 {
+
+.sectionbill h2 {
   font-size: 22px;
   margin-bottom: 16px;
   color: #f0f0f0;
@@ -24,11 +28,12 @@
   margin-bottom: 16px;
   white-space: pre-wrap;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 25px;
   
 }
 
 .button {
+  width: fit-content;
   background-color: #555;
   color: #fff;
   border: none;
@@ -43,13 +48,36 @@
   background-color: #777;
 }
 
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-bill,
+  #printable-bill * {
+    visibility: visible;
+  }
+
+  #printable-bill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: monospace;
+    white-space: pre;
+  }
+}
+
+
+
 @media (max-width: 600px) {
   .sectionbill {
     padding: 16px;
   }
 
   .sectionbill h2 {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -66,4 +94,3 @@
     text-align: center;
   }
 }
-
